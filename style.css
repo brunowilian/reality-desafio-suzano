@@ -1,0 +1,71 @@
+
+@media (prefers-color-scheme: dark) {
+
+    body,
+    html {
+        background: #333;
+        color: white;
+    }
+
+    .diversity-block .diversity-text {
+        color: white;
+    }
+    
+    .header-block nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+ 
+    p {
+        color: white;
+    }
+
+    ul {
+        color: rgb(255, 8, 8);
+    }
+
+    .commitment-1,
+    .commitment-2,
+    .commitment-3,
+    .commitment-4 {
+        background-color: orange;
+        border: 1px solid #6085cf;
+        border-radius: 20px;
+        padding: 1em;
+        background-color: #333;
+    }
+
+    /* tirar um pouco do brilho da imagem, conforme foi feito na tag img: */
+    img {
+        filter: brightness(0.8);
+    }
+
+    .footer-block {
+        background-color: #333;
+        color: white;
+    }
+}
+
+@media  (prefers-color-scheme: light) {
+
+    body,
+    html {
+        background: white;
+        color: #555;
+    }
+
+    .night.light-scheme {
+        background: #eee;
+        color: black;
+    }
+
+    .commitment-1,
+    .commitment-2,
+    .commitment-3,
+    .commitment-4 {
+        border: 1px solid #E5E9F6;
+        border-radius: 20px;
+        padding: 1em;
+        background-color: #FFFFFF;
+    }
+}

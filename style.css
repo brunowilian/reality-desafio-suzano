@@ -33,6 +33,21 @@
         padding: 1em;
         background-color: #333;
     }
+    /* tirar um pouco do brilho da imagem, conforme foi feito na tag img: */
+    img {
+        filter: brightness(0.9);
+    }
+
+    /* Collaborators */
+    .diversity-policy-block {
+        
+        background: linear-gradient(208.18deg, #0f1112 9.05%, #1d2126 76.74%);
+    }
+
+    .diversity-policy-text button {
+        background-color: #1c2022;
+        color: white;
+    } 
 
     .collaborator-1,
     .collaborator-2,
@@ -46,15 +61,11 @@
         color: white;
     }
 
-    /* tirar um pouco do brilho da imagem, conforme foi feito na tag img: */
-    img {
-        filter: brightness(0.8);
-    }
 
 
     /* Footer */
     .footer-block {
-        background-color: #333; 
+        background-color: rgb(46, 44, 44); 
     }
 
     .footer-block div ul li img {
